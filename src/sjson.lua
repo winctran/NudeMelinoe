@@ -99,15 +99,9 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\BoonSelectMel"
         end
 
-        if animation_data.Name == "MainMenuIn" then
-            function mod.LoadSkellyPackage()
-                local packageName = _PLUGIN.guid .. "test"
-                -- print("SGG_Modding-ModdingTemplate - Loading package: " .. packageName)
-                LoadPackages({ Name = packageName })
-            end
-
-            mod.LoadSkellyPackage()
-            animation_data.VideoTexture = "test"
+        if animation_data.Name == "MainMenuIn"
+            or animation_data.Name == "MainMenuLoop" then
+            animation_data.VideoTexture = "NudeMain"
         end
 
 
