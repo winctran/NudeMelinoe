@@ -26,52 +26,52 @@ sjson.hook(gui_portraits_vfx_path, function(data)
     for index, animation_data in ipairs(data.Animations) do
         if animation_data.Name == "Portrait_Mel_Default_01"
             or animation_data.Name == "Portrait_Mel_Default_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Vulnerable_01"
             or animation_data.Name == "Portrait_Mel_Vulnerable_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Vulnerable_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Vulnerable_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Intense_01"
             or animation_data.Name == "Portrait_Mel_Intense_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Intense_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Intense_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Pleased_01"
             or animation_data.Name == "Portrait_Mel_Pleased_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Pleased_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Pleased_01"
         end
 
         if animation_data.Name == "Portrait_Mel_PleasedFlushed_01"
             or animation_data.Name == "Portrait_Mel_PleasedFlushed_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_PleasedFlushed_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_PleasedFlushed_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Casual_01"
             or animation_data.Name == "Portrait_Mel_Casual_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Casual_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Casual_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Hesitant_01"
             or animation_data.Name == "Portrait_Mel_Hesitant_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Hesitant_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Hesitant_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Empathetic_01"
             or animation_data.Name == "Portrait_Mel_Empathetic_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Empathetic_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Empathetic_01"
         end
 
         if animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01"
             or animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_EmpatheticFlushed_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_EmpatheticFlushed_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Proud_01"
             or animation_data.Name == "Portrait_Mel_Proud_01_Exit" then
-            animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Proud_01"
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Proud_01"
         end
 
 
@@ -96,7 +96,7 @@ sjson.hook(gui_screens_vfx_path, function(data)
             -- or animation_data.Name == "BoonSelectMelIn"
             -- or animation_data.Name == "BoonSelectMelFxLoop"
             -- or animation_data.Name == "BoonSelectMelOut" then
-            animation_data.FilePath = "Nude_Melinoe\\BoonSelectMel"
+            animation_data.FilePath = "NudeMelinoe\\BoonSelectMel"
         end
 
         if animation_data.Name == "MainMenuIn" then
@@ -114,11 +114,11 @@ sjson.hook(gui_screens_vfx_path, function(data)
         -- if animation_data.Name == "SpellScreenIn"
         --     or animation_data.Name == "SpellScreenLoop"
         --     or animation_data.Name == "SpellScreenOut" then
-        --     animation_data.FilePath = "Nude_Melinoe\\Portraits_Melinoe_Proud_01"
+        --     animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Proud_01"
         -- end
 
         -- if animation_data.Name == "SpellScreenLoop" then
-        --     animation_data.FilePath = "Nude_Melinoe\\SpellScreenBG"
+        --     animation_data.FilePath = "NudeMelinoe\\SpellScreenBG"
         -- end
 
         if is_animation_disabled(animation_data.Name) then

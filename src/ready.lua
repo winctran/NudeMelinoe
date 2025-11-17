@@ -10,7 +10,7 @@
 modutil.mod.Path.Wrap("SetupMap", function(base)
     LoadPackages({
         Names = {
-            "Nude_Melinoe"
+            "NudeMelinoe"
         }
     })
     base()

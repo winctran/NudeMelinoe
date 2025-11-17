@@ -1,9 +1,9 @@
 {
-    "name": "bin\\Win\\Atlases\\Nude_Melinoe_1",
+    "name": "NudeMelinoe_1",
     "version": 4,
     "subAtlases": [
         {
-            "name": "Nude_Melinoe\\Portraits_Melinoe_Intense_01",
+            "name": "NudeMelinoe\\Portraits_Melinoe_Intense_01",
             "rect": {
                 "x": 44,
                 "y": 1,
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "name": "Nude_Melinoe\\Portraits_Melinoe_Hesitant_01",
+            "name": "NudeMelinoe\\Portraits_Melinoe_Hesitant_01",
             "rect": {
                 "x": 685,
                 "y": 84,
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "name": "Nude_Melinoe\\Portraits_Melinoe_PleasedFlushed_01",
+            "name": "NudeMelinoe\\Portraits_Melinoe_PleasedFlushed_01",
             "rect": {
                 "x": 1475,
                 "y": 20,
@@ -177,7 +177,7 @@
             ]
         },
         {
-            "name": "Nude_Melinoe\\Portraits_Melinoe_Pleased_01",
+            "name": "NudeMelinoe\\Portraits_Melinoe_Pleased_01",
             "rect": {
                 "x": 2126,
                 "y": 20,
@@ -232,5 +232,5 @@
         }
     ],
     "isReference": true,
-    "referencedTextureName": "bin\\Win\\Atlases\\Nude_Melinoe_1"
+    "referencedTextureName": "NudeMelinoe_1"
 }
