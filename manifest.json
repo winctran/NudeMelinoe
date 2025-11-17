@@ -1,0 +1,28 @@
+{
+    "manifestVersion": 1,
+    "name": "Nude-Melinoe",
+    "authorName": "Winctran",
+    "websiteUrl": "",
+    "displayName": "Nude-Melinoe",
+    "description": "Strips Melinoe naked on most in-game occurences",
+    "gameVersion": "",
+    "networkMode": "",
+    "packageType": "",
+    "installMode": "",
+    "installedAtTime": 0,
+    "loaders": [],
+    "dependencies": [
+        "Hell2Modding-Hell2Modding-1.0.73",
+        "SGG_Modding-SJSON-1.0.0",
+        "SGG_Modding-ModUtil-4.0.1"
+    ],
+    "incompatibilities": [],
+    "optionalDependencies": [],
+    "versionNumber": {
+        "major": 0,
+        "minor": 0,
+        "patch": 1
+    },
+    "enabled": true,
+    "icon": ""
+}
