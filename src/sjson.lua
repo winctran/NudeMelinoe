@@ -5,12 +5,10 @@ function is_animation_disabled(phrase)
     local not_allowed = {
         "^Portrait_Mel.*Wiggle",
         "^Portrait_Mel.*ArmGlow",
-        -- "^Portrait_Mel.*Hesitant_MoonGlow",
-        -- "^Portrait_Mel.*Hesitant_MainGlow",
-        -- "^Portrait_Mel.*Hesitant_Glint",
+        "^Portrait_Mel.*Glint",
 
-        "BoonSelectMelIn",
-        "BoonSelectMelOut"
+        -- "BoonSelectMelIn",
+        -- "BoonSelectMelOut",
     }
 
     for _, bad_word in ipairs(not_allowed) do
@@ -93,9 +91,6 @@ local gui_screens_vfx_path = rom.path.combine(rom.paths.Content, 'Game/Animation
 sjson.hook(gui_screens_vfx_path, function(data)
     for index, animation_data in ipairs(data.Animations) do
         if animation_data.Name == "BoonSelectMelStatic" then
-            -- or animation_data.Name == "BoonSelectMelIn"
-            -- or animation_data.Name == "BoonSelectMelFxLoop"
-            -- or animation_data.Name == "BoonSelectMelOut" then
             animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn0015"
         end
 
@@ -104,6 +99,11 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.VideoTexture = "NudeMain"
         end
 
+        if animation_data.Name == "BoonSelectMelIn" then
+            animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn"
+        end
+
+        -- GUI\Screens\BoonSelect\BoonSelectMelIn\BoonSelectMelIn
 
         -- if animation_data.Name == "SpellScreenIn"
         --     or animation_data.Name == "SpellScreenLoop"
