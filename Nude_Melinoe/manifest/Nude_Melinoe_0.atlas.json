@@ -1,0 +1,364 @@
+{
+    "name": "bin\\Win\\Atlases\\Nude_Melinoe_0",
+    "version": 4,
+    "subAtlases": [
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_01",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 1025,
+                "height": 1092
+            },
+            "topLeft": {
+                "x": 159,
+                "y": 258
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 513,
+                    "y": -148
+                },
+                {
+                    "x": 513,
+                    "y": -145
+                },
+                {
+                    "x": 264,
+                    "y": 393
+                },
+                {
+                    "x": 117,
+                    "y": 547
+                },
+                {
+                    "x": -272,
+                    "y": 547
+                },
+                {
+                    "x": -513,
+                    "y": 181
+                },
+                {
+                    "x": -513,
+                    "y": 142
+                },
+                {
+                    "x": -116,
+                    "y": -547
+                },
+                {
+                    "x": -34,
+                    "y": -547
+                }
+            ]
+        },
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_Proud_01",
+            "rect": {
+                "x": 1028,
+                "y": 1,
+                "width": 1025,
+                "height": 1092
+            },
+            "topLeft": {
+                "x": 159,
+                "y": 258
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 513,
+                    "y": -148
+                },
+                {
+                    "x": 513,
+                    "y": -145
+                },
+                {
+                    "x": 264,
+                    "y": 393
+                },
+                {
+                    "x": 117,
+                    "y": 547
+                },
+                {
+                    "x": -272,
+                    "y": 547
+                },
+                {
+                    "x": -513,
+                    "y": 181
+                },
+                {
+                    "x": -513,
+                    "y": 142
+                },
+                {
+                    "x": -116,
+                    "y": -547
+                },
+                {
+                    "x": -34,
+                    "y": -547
+                }
+            ]
+        },
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_Empathetic_01",
+            "rect": {
+                "x": 2055,
+                "y": 1,
+                "width": 787,
+                "height": 1055
+            },
+            "topLeft": {
+                "x": 161,
+                "y": 295
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 394,
+                    "y": 300
+                },
+                {
+                    "x": 394,
+                    "y": 359
+                },
+                {
+                    "x": 232,
+                    "y": 528
+                },
+                {
+                    "x": -156,
+                    "y": 528
+                },
+                {
+                    "x": -394,
+                    "y": 164
+                },
+                {
+                    "x": -394,
+                    "y": 123
+                },
+                {
+                    "x": -12,
+                    "y": -494
+                },
+                {
+                    "x": 187,
+                    "y": -515
+                }
+            ]
+        },
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_EmpatheticFlushed_01",
+            "rect": {
+                "x": 1,
+                "y": 1207,
+                "width": 787,
+                "height": 1055
+            },
+            "topLeft": {
+                "x": 161,
+                "y": 295
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 394,
+                    "y": 300
+                },
+                {
+                    "x": 394,
+                    "y": 359
+                },
+                {
+                    "x": 232,
+                    "y": 528
+                },
+                {
+                    "x": -156,
+                    "y": 528
+                },
+                {
+                    "x": -394,
+                    "y": 164
+                },
+                {
+                    "x": -394,
+                    "y": 123
+                },
+                {
+                    "x": -12,
+                    "y": -494
+                },
+                {
+                    "x": 187,
+                    "y": -515
+                }
+            ]
+        },
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_Casual_01",
+            "rect": {
+                "x": 790,
+                "y": 1207,
+                "width": 788,
+                "height": 1039
+            },
+            "topLeft": {
+                "x": 159,
+                "y": 311
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 158,
+                    "y": -496
+                },
+                {
+                    "x": 395,
+                    "y": 283
+                },
+                {
+                    "x": 395,
+                    "y": 353
+                },
+                {
+                    "x": 235,
+                    "y": 520
+                },
+                {
+                    "x": -154,
+                    "y": 520
+                },
+                {
+                    "x": -395,
+                    "y": 154
+                },
+                {
+                    "x": -395,
+                    "y": 116
+                },
+                {
+                    "x": -14,
+                    "y": -517
+                }
+            ]
+        },
+        {
+            "name": "Nude_Melinoe\\Portraits_Melinoe_Vulnerable_01",
+            "rect": {
+                "x": 1763,
+                "y": 1163,
+                "width": 787,
+                "height": 1055
+            },
+            "topLeft": {
+                "x": 161,
+                "y": 295
+            },
+            "originalSize": {
+                "x": 1250,
+                "y": 1350
+            },
+            "scaleRatio": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "isMulti": false,
+            "isMip": false,
+            "isAlpha8": false,
+            "hull": [
+                {
+                    "x": 394,
+                    "y": 300
+                },
+                {
+                    "x": 394,
+                    "y": 359
+                },
+                {
+                    "x": 232,
+                    "y": 528
+                },
+                {
+                    "x": -156,
+                    "y": 528
+                },
+                {
+                    "x": -394,
+                    "y": 164
+                },
+                {
+                    "x": -394,
+                    "y": 123
+                },
+                {
+                    "x": -12,
+                    "y": -494
+                },
+                {
+                    "x": 187,
+                    "y": -515
+                }
+            ]
+        }
+    ],
+    "isReference": true,
+    "referencedTextureName": "bin\\Win\\Atlases\\Nude_Melinoe_0"
+}
