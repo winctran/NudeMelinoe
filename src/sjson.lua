@@ -94,13 +94,13 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn0015"
         end
 
+        if animation_data.Name == "BoonSelectMelIn" then
+            animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn"
+        end
+
         if animation_data.Name == "MainMenuIn"
             or animation_data.Name == "MainMenuLoop" then
             animation_data.VideoTexture = "NudeMain"
-        end
-
-        if animation_data.Name == "BoonSelectMelIn" then
-            animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn"
         end
 
         -- GUI\Screens\BoonSelect\BoonSelectMelIn\BoonSelectMelIn
