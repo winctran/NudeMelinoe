@@ -127,16 +127,5 @@ sjson.hook(gui_screens_vfx_path, function(data)
             or animation_data.Name == "TalentScreenOut" then
             animation_data.VideoTexture = "NudeTalentSc"
         end
-
-        if is_animation_disabled(animation_data.Name) then
-            animation_data.FilePath = "Dev\\blank_invisible"
-            animation_data.EndFrame = 1
-            animation_data.Loop = false
-            animation_data.NumFrames = 1
-            animation_data.StartFrame = 1
-            animation_data.Slides = {
-                { DurationFrames = 1, FilePath = "Dev\\blank_invisible" }
-            }
-        end
     end
 end)
