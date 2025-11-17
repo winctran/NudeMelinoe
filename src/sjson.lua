@@ -104,9 +104,17 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.VideoTexture = "NudeMain"
         end
 
-        -- if animation_data.Name == "SpellScreenLoop" then
-        --     animation_data.FilePath = "NudeMelinoe\\SpellScreenBG"
-        -- end
+        if animation_data.Name == "SpellScreenIn"
+            or animation_data.Name == "SpellScreenLoop"
+            or animation_data.Name == "SpellScreenOut" then
+            animation_data.VideoTexture = "NudeSpellSc"
+        end
+
+        if animation_data.Name == "TalentScreenIn"
+            or animation_data.Name == "TalentScreenLoop"
+            or animation_data.Name == "TalentScreenOut" then
+            animation_data.VideoTexture = "NudeTalentSc"
+        end
 
         if is_animation_disabled(animation_data.Name) then
             animation_data.FilePath = "Dev\\blank_invisible"
