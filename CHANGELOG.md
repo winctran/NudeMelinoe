@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1] - 2025-11-17
+
 ### Added
 
-- First version of the mod!
+- 10 dialogue sprites 
+- 2 bath dialogue sprites
+- Boon select screen
+- Main menu screen
+- Hex select and upgrade screens
