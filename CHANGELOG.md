@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-11-17
+
 ### Added
 
 - 10 dialogue sprites 
@@ -14,3 +16,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Boon select screen
 - Main menu screen
 - Hex select and upgrade screens
+
+[unreleased]: https://github.com/winctran/NudeMelinoe/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/winctran/NudeMelinoe/compare/e8587f32756d25dc5054e0a63d93baf1ece7384c...1.0.0
