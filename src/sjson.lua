@@ -6,9 +6,6 @@ function is_animation_disabled(phrase)
         "^Portrait_Mel.*Wiggle",
         "^Portrait_Mel.*ArmGlow",
         "^Portrait_Mel.*Glint",
-
-        -- "BoonSelectMelIn",
-        -- "BoonSelectMelOut",
     }
 
     for _, bad_word in ipairs(not_allowed) do
@@ -98,18 +95,14 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelIn"
         end
 
+        if animation_data.Name == "BoonSelectMelOut" then
+            animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelOut"
+        end
+
         if animation_data.Name == "MainMenuIn"
             or animation_data.Name == "MainMenuLoop" then
             animation_data.VideoTexture = "NudeMain"
         end
-
-        -- GUI\Screens\BoonSelect\BoonSelectMelIn\BoonSelectMelIn
-
-        -- if animation_data.Name == "SpellScreenIn"
-        --     or animation_data.Name == "SpellScreenLoop"
-        --     or animation_data.Name == "SpellScreenOut" then
-        --     animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Proud_01"
-        -- end
 
         -- if animation_data.Name == "SpellScreenLoop" then
         --     animation_data.FilePath = "NudeMelinoe\\SpellScreenBG"
