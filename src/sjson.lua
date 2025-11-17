@@ -22,64 +22,64 @@ sjson.hook(gui_portraits_vfx_path, function(data)
     for index, animation_data in ipairs(data.Animations) do
         if animation_data.Name == "Portrait_Mel_Default_01"
             or animation_data.Name == "Portrait_Mel_Default_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Vulnerable_01"
             or animation_data.Name == "Portrait_Mel_Vulnerable_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Vulnerable_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Vulnerable_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Intense_01"
             or animation_data.Name == "Portrait_Mel_Intense_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Intense_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Intense_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Pleased_01"
             or animation_data.Name == "Portrait_Mel_Pleased_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Pleased_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Pleased_01"
         end
 
         if animation_data.Name == "Portrait_Mel_PleasedFlushed_01"
             or animation_data.Name == "Portrait_Mel_PleasedFlushed_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_PleasedFlushed_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_PleasedFlushed_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Casual_01"
             or animation_data.Name == "Portrait_Mel_Casual_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Casual_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Casual_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Hesitant_01"
             or animation_data.Name == "Portrait_Mel_Hesitant_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Hesitant_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Hesitant_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Empathetic_01"
             or animation_data.Name == "Portrait_Mel_Empathetic_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Empathetic_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Empathetic_01"
         end
 
         if animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01"
             or animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_EmpatheticFlushed_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_EmpatheticFlushed_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Proud_01"
             or animation_data.Name == "Portrait_Mel_Proud_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Proud_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Proud_01"
         end
 
         if animation_data.Name == "Portrait_Mel_Bath_01"
             or animation_data.Name == "Portrait_Mel_Bath_01_Exit"
             or animation_data.Name == "Portrait_Mel_Bath_Tearful_01"
             or animation_data.Name == "Portrait_Mel_Bath_Tearful_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Mel_Bath_Custom"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Mel_Bath_Custom"
         end
 
         if animation_data.Name == "Portrait_Mel_Bath_Shock_01"
             or animation_data.Name == "Portrait_Mel_Bath_Shock_01_Exit" then
-            animation_data.FilePath = "NudeMelinoe\\Portraits_Mel_Bath_Shock_01"
+            animation_data.FilePath = "NudeMelinoe\\Portrait_Mel_Bath_Shock_01"
         end
 
 

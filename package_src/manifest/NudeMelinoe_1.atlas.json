@@ -3,7 +3,7 @@
     "version": 4,
     "subAtlases": [
         {
-            "name": "NudeMelinoe\\Portraits_Melinoe_Intense_01",
+            "name": "NudeMelinoe\\Portrait_Melinoe_Intense_01",
             "rect": {
                 "x": 44,
                 "y": 1,
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "name": "NudeMelinoe\\Portraits_Melinoe_Hesitant_01",
+            "name": "NudeMelinoe\\Portrait_Melinoe_Hesitant_01",
             "rect": {
                 "x": 685,
                 "y": 84,
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "name": "NudeMelinoe\\Portraits_Melinoe_PleasedFlushed_01",
+            "name": "NudeMelinoe\\Portrait_Melinoe_PleasedFlushed_01",
             "rect": {
                 "x": 1475,
                 "y": 20,
@@ -177,7 +177,7 @@
             ]
         },
         {
-            "name": "NudeMelinoe\\Portraits_Melinoe_Pleased_01",
+            "name": "NudeMelinoe\\Portrait_Melinoe_Pleased_01",
             "rect": {
                 "x": 2126,
                 "y": 20,
@@ -231,7 +231,7 @@
             ]
         },
         {
-            "name": "NudeMelinoe\\Portraits_Mel_Bath_Custom",
+            "name": "NudeMelinoe\\Portrait_Mel_Bath_Custom",
             "rect": {
                 "x": 44,
                 "y": 1101,
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "name": "NudeMelinoe\\Portraits_Mel_Bath_Shock_01",
+            "name": "NudeMelinoe\\Portrait_Mel_Bath_Shock_01",
             "rect": {
                 "x": 685,
                 "y": 1184,
