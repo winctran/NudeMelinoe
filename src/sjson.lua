@@ -6,6 +6,7 @@ function is_animation_disabled(phrase)
         "^Portrait_Mel.*Wiggle",
         "^Portrait_Mel.*ArmGlow",
         "^Portrait_Mel.*Glint",
+        "^Portrait_Mel.*Bath"
     }
 
     for _, bad_word in ipairs(not_allowed) do
@@ -69,6 +70,17 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\Portraits_Melinoe_Proud_01"
         end
 
+        if animation_data.Name == "Portrait_Mel_Bath_01"
+            or animation_data.Name == "Portrait_Mel_Bath_01_Exit"
+            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01"
+            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01_Exit" then
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Mel_Bath_Custom"
+        end
+
+        if animation_data.Name == "Portrait_Mel_Bath_Shock_01"
+            or animation_data.Name == "Portrait_Mel_Bath_Shock_01_Exit" then
+            animation_data.FilePath = "NudeMelinoe\\Portraits_Mel_Bath_Shock_01"
+        end
 
 
         if is_animation_disabled(animation_data.Name) then
