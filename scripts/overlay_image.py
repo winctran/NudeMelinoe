@@ -1,6 +1,25 @@
+"""
+Overlay image with transparency over multiple files.
+
+Allows to edit all the animation frames at once.
+Some frames may still need to be edited manually.
+
+Required file structure is:
+.
+├── MainMenu
+│   ├── MainMenu000.png
+│   ├── MainMenu001.png
+│   └── MainMenu002.png
+│   └── ...
+└── MainMenu_overlay.png
+
+Where MainMenu holds animation frames (possibly exported with bink)
+And MainMenu_overlay.png is a file to overlay over all the frames. 
+"""
 
 import cv2
 import os
+
 
 # folder_name = "./MainMenu"
 # folder_name = "./TalentScreen"
@@ -15,16 +34,13 @@ for file_name in filelist[:]:
     if file_name.endswith(".png"):
         image = cv2.imread(f"{folder_name}/{file_name}", cv2.IMREAD_UNCHANGED)
 
-        # normalize alpha channels from 0-255 to 0-1
         alpha_background = image[:, :, 3] / 255.0
         alpha_foreground = overlay[:, :, 3] / 255.0
 
-        # set adjusted colors
         for color in range(0, 3):
             image[:, :, color] = alpha_foreground * overlay[:, :, color] + \
                 alpha_background * image[:, :, color] * (1 - alpha_foreground)
 
-        # set adjusted alpha and denormalize back to 0-255
         image[:, :, 3] = (1 - (1 - alpha_foreground)
                           * (1 - alpha_background)) * 255
 

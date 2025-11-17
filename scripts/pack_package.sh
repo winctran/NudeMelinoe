@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# (Linux) Pack package_src from repository to plugins_data mod folder
+
 location=~/.config/r2modmanPlus-local/HadesII/profiles/Default/ReturnOfModding/
 plugins=$location/plugins/Winctran-NudeMelinoe
 plugins_data=$location/plugins_data/Winctran-NudeMelinoe
