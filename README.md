@@ -26,6 +26,6 @@ Mod does not change:
 
 - Use r2modman to install the mod with dependencies
 - Get the movie files: In r2modman go `Settings > Browse Profile Folder > ReturnOfModding > plugins_data > Winctran-NudeMelinoe > Movies`
-- Copy the movies to game files: In r2modman check the path in `Change Hades II folder`. In this path navigate to `Hades II > Content Movies > 1080p` and copy the `bik` and `bik_atlas` files
+- Move the movies to game files: In r2modman check the path in `Change Hades II folder`. In this path navigate to `Hades II > Content Movies > 1080p` and copy the `bik` and `bik_atlas` files
 
 Make sure that in Hades 2 you use `high` setting for textures.
