@@ -4,6 +4,8 @@
 
 Hades II NSFW mod that resprites most of Melinoe in-game occurences with their nude versions. All sprites are original assets overpainted with no use of AI.
 
+<img src="https://github.com/user-attachments/assets/f1b483cd-a83b-47c7-9e65-a072c2cabd15" />
+
 ## Features
 
 Mod changes:
@@ -17,9 +19,9 @@ Mod changes:
 
 Mod does not change:
 
-- Character 3D model, as it is not possible with current state of modding tools.
+- 3D model geometry, as it is not possible with current state of modding tools
 - Screens for weapon upgrade and select
-- "Look at the biome" movies
+- Biome introduction movies
 - Ending movies
 - Melinoe codex entry
 
