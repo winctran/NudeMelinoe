@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Banner not being displayed on thunderstore (second attempt)
+
 ## [1.1.1] - 2025-11-25
 
 ### Fixed
