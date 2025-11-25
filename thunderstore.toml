@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Winctran"
 name = "NudeMelinoe"
-versionNumber = "1.1.1"
+versionNumber = "1.1.2"
 description = "Strips Melinoe naked on most of her in-game occurences."
 websiteUrl = "https://github.com/winctran/NudeMelinoe"
 containsNsfwContent = true
