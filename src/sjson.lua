@@ -1,13 +1,12 @@
 ---@meta _
 ---@diagnostic disable
 
--- Check if animation of given name should be disabled. 
+-- Check if animation of given name should be disabled.
 function is_animation_disabled(phrase)
     local not_allowed = {
-        "^Portrait_Mel.*Wiggle",   -- Moving specular lights on armor contour
-        "^Portrait_Mel.*ArmGlow",  -- Lines on waist
-        "^Portrait_Mel.*Glint",    -- Armor light. Can be allowed for "magic armor" effect
-        "^Portrait_Mel.*Bath"      -- Bath related effects
+        "^Portrait_Mel.*Wiggle",  -- Moving specular lights on armor contour
+        "^Portrait_Mel.*ArmGlow", -- Lines on waist
+        "^Portrait_Mel.*Glint",   -- Armor light. Can be allowed for "magic armor" effect
     }
 
     for _, bad_word in ipairs(not_allowed) do
@@ -72,17 +71,25 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\Portrait_Melinoe_Proud_01"
         end
 
-        -- Replace two bath sprites with a custom one
         if animation_data.Name == "Portrait_Mel_Bath_01"
-            or animation_data.Name == "Portrait_Mel_Bath_01_Exit"
-            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01"
-            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01_Exit" then
+            or animation_data.Name == "Portrait_Mel_Bath_01_Exit" then
             animation_data.FilePath = "NudeMelinoe\\Portrait_Mel_Bath_Custom"
+            animation_data.CreateAnimations = {}
+            animation_data.Scale = 0.8
+            animation_data.OffsetY = -100
+            animation_data.OffsetX = 0
         end
 
+        -- Replace two bath sprites with a custom one
         if animation_data.Name == "Portrait_Mel_Bath_Shock_01"
-            or animation_data.Name == "Portrait_Mel_Bath_Shock_01_Exit" then
+            or animation_data.Name == "Portrait_Mel_Bath_Shock_01_Exit"
+            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01"
+            or animation_data.Name == "Portrait_Mel_Bath_Tearful_01_Exit" then
             animation_data.FilePath = "NudeMelinoe\\Portrait_Mel_Bath_Shock_01"
+            animation_data.CreateAnimations = {}
+            animation_data.Scale = 0.8
+            animation_data.OffsetY = -100
+            animation_data.OffsetX = 0
         end
 
         -- disable animations with names that follow one of patterns defined above
@@ -103,7 +110,6 @@ end)
 local gui_screens_vfx_path = rom.path.combine(rom.paths.Content, 'Game/Animations/GUI_Screens_VFX.sjson')
 sjson.hook(gui_screens_vfx_path, function(data)
     for index, animation_data in ipairs(data.Animations) do
-
         -- BoonSelect screen.
         -- Numbers 0000-0015 are added automatically for In and Out animations
 
@@ -119,7 +125,7 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "NudeMelinoe\\GUI_BoonSelectMelOut"
         end
 
-        -- Replace movies that should be dropped in the games' Movie folder 
+        -- Replace movies that should be dropped in the games' Movie folder
 
         if animation_data.Name == "MainMenuIn"
             or animation_data.Name == "MainMenuLoop" then
