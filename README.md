@@ -4,7 +4,7 @@
 
 Hades II NSFW mod that resprites most of Melinoe in-game occurences with their nude versions. All sprites are original assets overpainted with no use of AI.
 
-<img src="https://github.com/user-attachments/assets/f1b483cd-a83b-47c7-9e65-a072c2cabd15" />
+![Banner](images/banner.png)
 
 ## Features
 
