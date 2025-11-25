@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Reskin of Melinoe 3D model to topless version
+
 ## [1.0.0] - 2025-11-17
 
 ### Added

@@ -8,6 +8,7 @@ Hades II NSFW mod that resprites most of Melinoe in-game occurences with their n
 
 Mod changes:
 
+- Texture of 3D model
 - 10 dialogue sprites 
 - 2 bath dialogue sprites
 - Boon select screen
@@ -24,7 +25,7 @@ Mod does not change:
 
 ## Install
 
-- Use r2modman to install the mod with dependencies (enable NSFW filter)
+- Use r2modman to install the mod with dependencies (disable NSFW filter)
 - Get the movie files: In r2modman go `Settings > Browse Profile Folder > ReturnOfModding > plugins_data > Winctran-NudeMelinoe > Movies`
 - Move the movies to game files: In r2modman check the path in `Change Hades II folder`. In this path navigate to `Hades II > Content Movies > 1080p` and move the `bik` and `bik_atlas` files
 
