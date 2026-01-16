@@ -27,11 +27,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.40630366"
-     inkscape:cx="1069.3972"
-     inkscape:cy="1452.1159"
-     inkscape:window-width="2560"
-     inkscape:window-height="1440"
+     inkscape:zoom="0.57460015"
+     inkscape:cx="745.73597"
+     inkscape:cy="1207.7964"
+     inkscape:window-width="3840"
+     inkscape:window-height="2160"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -146,7 +146,7 @@
      id="layer1"
      style="display:inline"><g
        id="g2"
-       style="display:inline"
+       style="display:none"
        inkscape:label="1"><image
          width="271.06161"
          height="288.6806"
@@ -203,7 +203,7 @@
          y="-11.144753"
          inkscape:label="Portrait_Melinoe_Intense_01" /></g><g
        id="g1"
-       style="display:none"
+       style="display:inline"
        inkscape:label="0"
        sodipodi:insensitive="true"><image
          width="271.06161"
